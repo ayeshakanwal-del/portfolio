@@ -104,7 +104,6 @@ body {
   position: fixed;
 }
 
-
 /* Mobile screen size: 375px */
 @media (max-width: 375px) {
   body {
