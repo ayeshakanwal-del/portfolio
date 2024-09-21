@@ -44,6 +44,69 @@ body {
     background-color: white;
     margin-bottom: 0.3rem;
 }
+
+/* Hero section styling */
+.hero-section {
+    padding: 4rem 0;
+    width: 100%;
+    text-align: left;
+    padding:0 5%;
+    margin-top: 92px;
+}
+
+.hero-section h1 {
+    color: #FF7A00;
+    font-family: 'Crete Round', serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    padding:0 5%;
+}
+
+.hero-section h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    padding:0 5%;
+}
+
+.hero-section p {
+    color: #c4c4c4;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    max-width: 400px;
+    margin-top: 1rem;
+    padding:0 5%;
+}
+
+/* Social icons */
+.social-icons {
+    margin-top: 1.8rem;
+    font-size: 1.7rem;
+    display: flex;
+    gap: 15px;
+    padding:0 5%;
+}
+
+.social-icons i {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #FF7A00;
+}
+
+/* decorative structure */
+.bottom-right-structure {
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    position:fixed;
+}
+
+
 /* Mobile screen size: 375px */
 @media (max-width: 375px) {
     body {
