@@ -1,169 +1,167 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #1d1d1d;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden; 
+  background-color: #1d1d1d;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Header styling */
 .header {
-    display: flex;
-    width:100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 0;
-    background-color: #333;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  background-color: #333;
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding:0 5%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 5%;
 }
 
 .menu-icon {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 1.5rem;
-    padding:0 5%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1.5rem;
+  padding: 0 5%;
 }
 
 .menu-icon span {
-    display: block;
-    width: 1.5rem;
-    height: 0.2rem;
-    background-color: white;
-    margin-bottom: 0.3rem;
+  display: block;
+  width: 1.5rem;
+  height: 0.2rem;
+  background-color: white;
+  margin-bottom: 0.3rem;
 }
 
 /* Hero section styling */
 .hero-section {
-    padding: 4rem 0;
-    width: 100%;
-    text-align: left;
-    padding:0 5%;
-    margin-top: 92px;
+  width: 100%;
+  text-align: left;
+  padding: 0 5%;
+  margin-top: 92px;
 }
 
 .hero-section h1 {
-    color: #FF7A00;
-    font-family: 'Crete Round', serif;
-    font-size: 2.3rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    padding:0 5%;
+  color: #ff7a00;
+  font-family: 'Crete Round', serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  padding: 0 5%;
 }
 
 .hero-section h2 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin: 1rem 0;
-    padding:0 5%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  padding: 0 5%;
 }
 
 .hero-section p {
-    color: #c4c4c4;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    max-width: 400px;
-    margin-top: 1rem;
-    padding:0 5%;
+  color: #c4c4c4;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  max-width: 400px;
+  margin-top: 1rem;
+  padding: 0 5%;
 }
 
 /* Social icons */
 .social-icons {
-    margin-top: 1.8rem;
-    font-size: 1.7rem;
-    display: flex;
-    gap: 15px;
-    padding:0 5%;
+  margin-top: 1.8rem;
+  font-size: 1.7rem;
+  display: flex;
+  gap: 15px;
+  padding: 0 5%;
 }
 
 .social-icons i {
-    color: white;
-    transition: color 0.3s ease;
+  color: white;
+  transition: color 0.3s ease;
 }
 
 .social-icons i:hover {
-    color: #FF7A00;
+  color: #ff7a00;
 }
 
 /* decorative structure */
 .bottom-right-structure {
-    bottom: 0;
-    right: 0;
-    width: 25%;
-    position:fixed;
+  bottom: 0;
+  right: 0;
+  width: 25%;
+  position: fixed;
 }
 
 
 /* Mobile screen size: 375px */
 @media (max-width: 375px) {
-    body {
-        padding: 0 5%;
-    }
+  body {
+    padding: 0 5%;
+  }
 
-    .hero-section h1 {
-        font-size: 2rem;
-        line-height: 2.3rem;
-    }
+  .hero-section h1 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
 
-    .hero-section h2 {
-        font-size: 1.1rem;
-    }
+  .hero-section h2 {
+    font-size: 1.1rem;
+  }
 
-    .hero-section p {
-        font-size: 0.85rem;
-        line-height: 1.2rem;
-        max-width: 100%;
-    }
+  .hero-section p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    max-width: 100%;
+  }
 
-    .social-icons i {
-        font-size: 1.5rem;
-    }
+  .social-icons i {
+    font-size: 1.5rem;
+  }
 
-    .bottom-right-structure {
-        width: 35%;
-        position: fixed;
-        bottom: 15px;
-        right: 15px;
-    }
+  .bottom-right-structure {
+    width: 35%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 /* Desktop screen size: 768px and above */
 @media (min-width: 768px) {
-    body {
-        padding: 0 15%;
-    }
+  body {
+    padding: 0 15%;
+  }
 
-    .hero-section h1 {
-        font-size: 2.7rem;
-        line-height: 3rem;
-    }
+  .hero-section h1 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+  }
 
-    .hero-section h2 {
-        font-size: 1.7rem;
-    }
+  .hero-section h2 {
+    font-size: 1.7rem;
+  }
 
-    .hero-section p {
-        max-width: 60%;
-    }
+  .hero-section p {
+    max-width: 60%;
+  }
 
-    .social-icons i {
-        font-size: 2rem;
-    }
+  .social-icons i {
+    font-size: 2rem;
+  }
 
-    .bottom-right-structure {
-        width: 18%;
-    }
+  .bottom-right-structure {
+    width: 18%;
+  }
 }
