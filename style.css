@@ -1,59 +1,54 @@
 * {
   margin: 0;
   padding: 0;
-
- 
 }
 
-
-.container{
-width: 375px;
-height: 650px;
-top: -3480px;
-left: 12142px;
-gap: 0px;
-opacity: 0px;
-background-color:black;
-
+.container {
+  width: 375px;
+  height: 650px;
+  top: -3480px;
+  left: 12142px;
+  gap: 0;
+  opacity: 0;
+  background-color: black;
 }
 
-
-header{
-display: flex;
-justify-content:space-between;
-background-color:#333;
-width: 339px;
-height: 48px;
-top: 44px;
-padding: 2px 24px 2px 12px;
-gap: 0px;
-opacity: 0px;
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  width: 339px;
+  height: 48px;
+  top: 44px;
+  padding: 2px 24px 2px 12px;
+  gap: 0;
+  opacity: 0;
 }
 
-.logo-placeholder{
-  color: #FFFFFF;
+.logo-placeholder {
+  color: #fff;
   width: 94px;
   height: 44px;
   top: 2px;
   left: 12px;
   padding: 10px 12px 10px 12px;
-  gap: 0px;
-  opacity: 0px;  
+  gap: 0;
+  opacity: 0;
 }
-  
-.logo-placeholder p{
-font-family: Roboto;
-font-size: 18px;
-font-weight: 700;
-line-height: 24px;
-text-align: center;
-width: 70px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
 
+.logo-placeholder p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  width: 70px;
+  height: 24px;
+  gap: 0;
+  opacity: 0;
 }
-.menu-icon{
+
+.menu-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -61,23 +56,20 @@ opacity: 0px;
   height: 24px;
   top: 4px;
   left: 311px;
-  padding: 8px 0px;
-  gap: 0px;
-  width: 18px;
-
+  padding: 8px 0;
+  gap: 0;
 }
-
 
 .menu-icon span {
   width: 18px;
   height: 4px;
   top: 12px;
   left: 4px;
-  gap: 0px;
+  gap: 0;
   background-color: white;
   border-radius: 1px;
-  
 }
+
 /* Hero Section */
 .hero-section {
   padding: 20px;
@@ -86,7 +78,7 @@ opacity: 0px;
 
 .hero-section h1 {
   color: #ff7a00;
-  font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', sans-serif;
   width: 327px;
   height: 124px;
   font-size: 56px;
@@ -104,31 +96,28 @@ opacity: 0px;
   font-weight: 700;
   line-height: 32px;
   margin-left: 20px;
- 
 }
 
 .hero-section p {
-  
   width: 327px;
   height: 123px;
   color: white;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   margin-top: 10px;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-margin-left: 20px;
-  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 /* Social Icons */
 .social-icons {
   display: flex;
-  gap: 0px;
+  gap: 0;
   margin-top: 1px;
-  border-radius: 8px 0px 0px 0px;
-  padding: 8px 0px 0px 0px;
+  border-radius: 8px 0 0 0;
+  padding: 8px 0 0 0;
   margin-left: 20px;
 }
 
@@ -139,9 +128,7 @@ margin-left: 20px;
   height: 312.03px;
   top: 270px;
   left: 230.1px;
-  padding: 0px 0.53px 0.32px 0px;
-  gap: 0px;
-  opacity: 0px;
-
-  
+  padding: 0 0.53px 0.32px 0;
+  gap: 0;
+  opacity: 0;
 }
