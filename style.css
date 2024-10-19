@@ -4,16 +4,22 @@
 
  
 }
-
-
+body{
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .container{
+
 width: 375px;
-height: 650px;
-top: -3480px;
 left: 12142px;
 gap: 0px;
 opacity: 0px;
 background-color:black;
+border: 1px solid gray;
 
 }
 
@@ -97,13 +103,14 @@ opacity: 0px;
 }
 
 .hero-section h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',serif;
   width: 327px;
   height: 27px;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   margin-left: 20px;
+  color: #FFF5E1;
  
 }
 
@@ -133,15 +140,479 @@ margin-left: 20px;
 }
 
 /* Decorative structure */
-.bottom-right-structure {
-  position: fixed;
-  width: 406.89px;
-  height: 312.03px;
-  top: 270px;
-  left: 230.1px;
-  padding: 0px 0.53px 0.32px 0px;
-  gap: 0px;
-  opacity: 0px;
+.structure img {
+margin-left: 205px;
+margin-bottom: 10px;
+width: 150.83px;
+height: 300.89px;
+gap: 0px;
+opacity: 0px;
 
   
 }
+
+.main-container{
+margin-top: 0px;
+width: 375px;
+height: 3,455px;
+padding: 120px 0px 120px 0px;
+gap: 80px;
+opacity: 0px;
+background-color: #FFFFFF;
+border: 1px solid gray;
+
+
+}
+
+#RecentWorks{
+font-family: 'Crete Round' , sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 52px;
+margin-left: 25px;
+width: 327px;
+height: 83px;
+gap: 0px;
+opacity: 0px;
+
+}
+.new1{
+  
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.MultiPostSection{
+  width: Hug (375px)px;
+height: Hug (568px)px;
+padding: 80px 24px 0px 24px;
+gap: 24px;
+opacity: 0px;
+background-color: #FFFFFF;
+
+}
+
+.MultiPostSection img{
+width: 327px;
+height: 237px;
+gap: 0px;
+opacity: 0px;
+transition: transform 0.3s ease; 
+
+}
+.MultiPostSection h1{
+font-family: Crete Round;
+margin-top: 20px;
+font-size: 32px;
+font-weight: 400;
+line-height: 44px;
+text-align: left;
+width: 327px;
+height: 36px;
+gap: 0px;
+opacity: 0px;
+
+}
+.MultiPostSection p{
+  
+font-family: 'Inter';
+margin-top: 20px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 327px;
+height: 147px;
+gap: 0px;
+opacity: 0px;
+
+}
+.Postskills ul {
+  display: flex;
+  list-style-type: none;
+ width: Hug (314px)px;
+height: Hug (40px)px;
+gap: 12px;
+opacity: 0px;
+opacity: 0px;
+
+}
+.Postskills ul li{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+  width: Hug (55px)px;
+height: Hug (40px)px;
+padding: 10px 12px 10px 12px;
+gap: 0px;
+border: 1px solid grey;
+opacity: 0px;
+opacity: 0px;
+
+
+}
+.MultiPostSection button{
+  margin-top: 10px;
+  width:124px;
+height:48px;
+padding: 12px 0px 0px 0px;
+gap: 10px;
+border-color: #FF6B00 ;
+background-color: #FF6B00;
+}
+.Postskills button, .AboutMe button{
+width: 131px;
+height: 48px;
+margin-left: 5px;
+margin-top: 15px;
+gap: 10px;
+opacity: 0px;
+  background-color: #ff6b00;
+  color: white;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px; 
+}
+
+.cardsection {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+  padding: 24px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
+   rgba(38, 38, 38, 0.9) 61.94%), url('/images/cardbg.png');
+  background-size: cover;
+  background-position: center;
+  width: 327px;
+height: 386px;
+gap: 0px;
+opacity: 0px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+
+}
+
+.card h1 {
+font-family: 'Crete Round', serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 44px;
+padding: 72px 16px 8px 16px;
+width: 295px;
+height: 81px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.card p {
+  font-family: 'Inter', sans-serif;
+  padding: 18px 16px 8px 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+  font-size: 16px;
+ 
+ width: 295px;
+height: 99px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.skills {
+  margin-bottom: 16px;
+  padding: 10px 16px 8px 16px;
+}
+
+.card ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+}
+
+.card ul li {
+  padding: 10px 12px;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card button{
+  width: 327px;
+  height: 48px;
+  background-color: #FF6B00;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Inter';
+font-size: 17px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.AboutMe{
+margin-top:90px;
+width: 352px;
+height: 563px;
+background-color: black;
+padding: 120px 0px 120px 24px;
+gap: 24px;
+opacity: 0px;
+
+}
+.AboutMe h1{
+width: 327px;
+height: 79px;
+gap: 0px;
+opacity: 0px;
+color: #FF6B00;
+
+  font-family: Crete Round;
+font-size: 72px;
+font-weight: 400;
+line-height: 88px;
+letter-spacing: 0.3700000047683716px;
+text-align: left;
+
+}
+.AboutMe p{
+  margin-top:30px;
+  width: 327px;
+  height: 148px; 
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #F4F5F7;
+}
+.AboutMe button{
+ width:156px;
+height:48px;
+padding: 12px 0px 0px 0px;
+gap: 10px;
+opacity: 0px;
+background: #FF6B00;
+border-color: #FF6B00;
+
+}
+.AboutMe img{
+  width: 182.63px;
+  height: 258.17px;
+  top: 0.35px;
+  Left: 708.27px;
+  padding: 30px 0px 10px 170px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.skill-set {
+ 
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  max-width: 375px;
+  width: Hug (225.46px)px;
+height: Hug (41.46px)px;
+padding: 8px 12px 8px 12px;
+gap: 12px;
+opacity: 0px;
+
+}
+
+
+.category {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 24px; 
+}
+
+.category-title {
+  font-family: 'InaiMathi';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 32px;
+  gap: 10px; 
+}
+
+.sub-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.sub-list li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 22px;
+  width:267;
+  height: 272;
+  gap: 24px;
+}
+
+/* Icons for each section */
+.diamond-icon {
+  color: #FF6B00;
+  width: 18px;
+height: 18px;
+gap: 0px;
+
+
+
+}
+
+.square-icon {
+  color: #FF6B00;
+  width: 18px;
+height: 18px;
+gap: 0px;
+
+}
+
+.circle-icon {
+  color: #FF6B00;
+  width: 18px;
+  height: 18px;
+  gap: 0px;
+}
+.Contact-section {
+  width: Hug (375px)px;
+  height: Hug (890px)px;
+  top: 5887px;
+  left: -1px;
+  padding: 120px 24px 120px 24px;
+  gap: 58px;
+  opacity: 0px;
+  
+}
+
+.Contact-section h2 {
+font-family: 'Inter';
+width: Fixed (327px)px;
+height: Fixed (262px)px;
+gap: 24px;
+opacity: 0px;
+
+font-size: 32px;
+font-weight: 700;
+line-height: 44px;
+text-align: center;
+color: #1d3557;
+ 
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.contact-form input, .contact-form textarea {
+  font-family: 'Inter';
+  font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+  margin-bottom: 40px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #979493;
+
+}
+
+.contact-form textarea {
+  width: 305px;
+height: 114px;
+gap: 0px;
+opacity: 0px;
+
+  border: 1px solid #FBF8F7;
+  background-color: #FBF8F7;
+  
+}
+
+.contact-form button {
+
+width: 131px;
+height: 48px;
+margin-left: 90px;
+margin-top: 10px;
+gap: 10px;
+opacity: 0px;
+  background-color: #ff6b00;
+  border-color: #FF6B00;
+  color: white;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px; 
+}
+.contact-social-icons {
+  width: Hug (200px)px;
+height: Hug (40px)px;
+top: 16px;
+left: 88px;
+gap: 0px;
+opacity: 0px;
+
+  display: flex;
+  gap: 0px;
+  margin-top: 10px;
+  border-radius: 8px 0px 0px 0px;
+  padding: 8px 0px 0px 0px;
+  margin-left: 20px;
+  color: #1d3557;
+}
+
+button {
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #ff9500; 
+}
+
+.MultiPostSection img:hover {
+  transform: scale(1.05); 
+}
+
+  @keyframes rotate-logo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .logo-placeholder {
+    animation: rotate-logo 1s ease-in-out;
+  }
+  
+
