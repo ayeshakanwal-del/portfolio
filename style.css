@@ -233,7 +233,7 @@ button {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(/assets/images/cardbg.png);
+    url('assets/images/cardbg.png');
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease;
