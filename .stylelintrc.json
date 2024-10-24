@@ -1,0 +1,35 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind",
+          "apply",
+          "variants",
+          "responsive",
+          "screen"
+        ]
+      }
+    ],
+    "csstree/validator": true,
+    "no-eol-whitespace": true,                              
+    "block-closing-brace-empty-line-before": "never",
+    "rule-empty-line-before": ["always", {
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
+    }],
+    "block-opening-brace-space-before": "always",
+    "declaration-empty-line-before": "never",
+    "declaration-colon-space-after": "always-single-line",
+    "length-zero-no-unit": true,
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "indentation": 2,
+    "max-empty-lines": 1
+  },
+  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
+}
