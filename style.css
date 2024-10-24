@@ -41,22 +41,25 @@ header {
   line-height: 24px;
   text-align: center;
 }
-
+ 
 .menu-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 24px;
-  height: 24px;
-  padding: 8px 0;
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  height: 25px;
+  position: relative;
 }
 
 .menu-icon span {
-  width: 18px;
-  height: 4px;
-  background-color: white;
-  border-radius: 1px;
+  background-color: #333;
+  color: white;
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+  transition: all 0.3s ease;
 }
+
+
 
 /* Hero Section */
 .hero-section {
@@ -189,7 +192,7 @@ header {
 }
 
 button {
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
 }
 
 .MultiPostSection button {
