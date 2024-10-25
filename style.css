@@ -516,7 +516,7 @@ button:hover {
 }
 
 .contact-form textarea:hover {
-  transform: translateX(10px); /
+  transform: translateX(10px);
 }
 
 /* Keyframes for animations */
