@@ -1,0 +1,531 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 375px;
+  background-color: black;
+  border: 1px solid gray;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  width: 90%;
+  height: 48px;
+  padding: 2px 24px 2px 12px;
+}
+
+/* Style for the menu icon (Hamburger Icon) */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+  justify-content: space-between;
+  margin: 8px;
+}
+
+.menu-icon span {
+  display: block;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 755px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  justify-content: left;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin-top: 70px;
+  text-align: left;
+}
+
+.mobile-menu li {
+  margin: 10px 20px;
+}
+
+.mobile-menu a {
+  color: #fff5e1;
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+hr {
+  color: #fff5e1;
+  margin-left: 15px;
+  width: 330px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Section Styling */
+section {
+  padding: 100px 0;
+}
+
+section h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+}
+
+/* For smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+.logo-placeholder {
+  color: #fff;
+  width: 94px;
+  height: 44px;
+  padding: 10px 12px;
+  animation: rotate-logo 1s ease-in-out;
+}
+
+.logo-placeholder p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 20px;
+  text-align: left;
+}
+
+.hero-section h1 {
+  color: #ff7a00;
+  font-family: 'Crete Round', serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.hero-section h2 {
+  font-family: 'Roboto', serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-left: 20px;
+  color: #fff5e1;
+}
+
+.hero-section p {
+  color: white;
+  font-family: Poppins, sans-serif;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  margin-top: 1px;
+  border-radius: 8px 0 0 0;
+  padding: 8px 0 0 0;
+  margin-left: 20px;
+}
+
+.structure img {
+  margin-left: 205px;
+  margin-bottom: 10px;
+  width: 150.83px;
+  height: 300.89px;
+}
+
+.main-container {
+  width: 375px;
+  padding: 120px 0;
+  background-color: #fff;
+  border: 1px solid gray;
+}
+
+#RecentWorks {
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  margin-left: 25px;
+}
+
+.new1 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.sub-list li {
+  list-style: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  width: 267px;
+  height: 48px;
+  gap: 24px;
+}
+
+.MultiPostSection {
+  width: 375px;
+  height: 568px;
+  padding: 80px 24px 2px 24px;
+  background-color: #fff;
+}
+
+.MultiPostSection img {
+  width: 327px;
+  height: 237px;
+  transition: transform 0.3s ease;
+}
+
+.MultiPostSection h1 {
+  font-family: 'Crete Round', serif;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  width: 327px;
+}
+
+.MultiPostSection p {
+  font-family: 'Inter', sans-serif;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 327px;
+}
+
+.Postskills ul {
+  display: flex;
+  list-style-type: none;
+  width: 314px;
+  height: 40px;
+  gap: 12px;
+}
+
+.Postskills ul li {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 20px;
+  padding: 10px 12px;
+  border: 1px solid grey;
+}
+
+button {
+  transition: background-color 0.1s ease;
+}
+
+.MultiPostSection button {
+  margin-top: 10px;
+  width: 124px;
+  height: 48px;
+  background-color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.Postskills button,
+.AboutMe button {
+  width: 131px;
+  height: 48px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #ff6b00;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cardsection {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+  padding: 24px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url('assets/images/cardbg.png');
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+  width: 327px;
+  height: 386px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.card h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  padding: 72px 16px 8px 16px;
+  width: 295px;
+}
+
+.card p {
+  font-family: 'Inter', sans-serif;
+  padding: 18px 16px 8px 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  width: 295px;
+}
+
+.skills {
+  margin-bottom: 16px;
+  padding: 10px 16px 8px 16px;
+}
+
+.card ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+}
+
+.card ul li {
+  padding: 10px 12px;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card button {
+  width: 327px;
+  height: 48px;
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.AboutMe {
+  margin-top: 90px;
+  width: 328px;
+  background-color: black;
+  padding: 120px 24px;
+}
+
+.AboutMe h1 {
+  width: 327px;
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 88px;
+  text-align: left;
+}
+
+.AboutMe p {
+  margin-top: 30px;
+  width: 327px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.AboutMe button {
+  width: 156px;
+  height: 48px;
+  background: #ff6b00;
+}
+
+.AboutMe img {
+  width: 182.63px;
+  height: 258.17px;
+  padding: 30px 0 10px 170px;
+}
+
+.skill-set {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.category-title {
+  font-family: 'InaiMathi', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.diamond-icon,
+.square-icon,
+.circle-icon {
+  color: #ff6b00;
+  width: 18px;
+  height: 18px;
+}
+
+.Contact-section {
+  padding: 120px 24px 120px 24px;
+  width: 375px;
+  height: 890px;
+  gap: 58px;
+}
+
+.Contact-section h2 {
+  font-family: 'Inter', sans-serif;
+  width: 327px;
+  height: 262px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #1d3557;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-right: 45px;
+  margin-bottom: 40px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #979493;
+}
+
+.contact-form textarea {
+  margin-left: 15px;
+  width: 305px;
+  height: 114px;
+  gap: 0;
+  border: 1px solid #fbf8f7;
+  background-color: #fbf8f7;
+  transition: transform 0.3s ease;
+}
+
+.contact-form button {
+  width: 131px;
+  height: 48px;
+  margin-left: 90px;
+  margin-top: 10px;
+  background-color: #ff6b00;
+  border-color: #ff6b00;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.MultiPostSection img:hover {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+.contact-form textarea:hover {
+  transform: translateX(10px);
+}
+
+/* Keyframes for animations */
+@keyframes rotate-logo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
