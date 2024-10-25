@@ -44,7 +44,6 @@ header {
   border-radius: 2px;
 }
 
-
 /* Mobile Menu */
 .mobile-menu {
   display: none;
@@ -56,8 +55,6 @@ header {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   justify-content: left;
-  align-items: left;
-  
 }
 
 .mobile-menu ul {
@@ -76,11 +73,12 @@ header {
   font-size: 40px;
   margin-left: 15px;
 }
+
 hr {
   color: #fff5e1;
   margin-left: 15px;
   width: 330px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5); 
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 /* Close Button */
@@ -127,7 +125,6 @@ html {
   line-height: 24px;
   text-align: center;
 }
- 
 
 /* Hero Section */
 .hero-section {
@@ -519,9 +516,8 @@ button:hover {
 }
 
 .contact-form textarea:hover {
-  transform: translateX(10px); /* Move text 10px to the right on hover */
+  transform: translateX(10px); /
 }
-
 
 /* Keyframes for animations */
 @keyframes rotate-logo {
@@ -532,6 +528,4 @@ button:hover {
   100% {
     transform: rotate(360deg);
   }
-
-  
 }
