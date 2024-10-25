@@ -1,28 +1,15 @@
+function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+}
 
-const closeBtn = document.getElementById('closeBtn');
-const mobileMenu = document.getElementById('mobileMenu');
-const menuIcon = document.getElementById('menuIcon');
-const menuOptions = document.querySelectorAll('.menu-option');
+function navigateToSection(event, sectionId) {
+    event.preventDefault(); // Prevent default anchor link behavior
+    const section = document.getElementById(sectionId);
 
+    if (section) {
+        section.scrollIntoView({ behavior: "smooth" }); // Smoothly scroll to the section
+    }
 
-menuIcon.addEventListener('click', function() {
-  mobileMenu.classList.add('open');  
-});
-
-
-closeBtn.addEventListener('click', function() {
-  mobileMenu.classList.remove('open');  
-});
-
-
-menuOptions.forEach(option => {
-  option.addEventListener('click', function() {
-    mobileMenu.classList.remove('open'); 
-
-
-    const targetSection = document.querySelector(option.getAttribute('href'));
-    targetSection.scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
+    toggleMenu(); // Close the menu after navigating
+}

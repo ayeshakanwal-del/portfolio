@@ -16,20 +16,38 @@
         <p>My Logo</p>
             </div>
 
-            <nav class="menu-icon" id="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </nav>  
-       
+           <!-- Hamburger Menu Icon -->
+    <nav class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </nav>
+
     </header>
-    <script src="scripts/index.js"></script>
+   <!-- <script src="scripts/index.js"></script>-->
     <!-- Hero Section -->
     <main class="hero-section">
         <h1>Hey There.<br> I'm Alex.</h1>
         <h2>I'm a Software Developer</h2>
         <p>I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-        
+         
+ 
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" onclick="toggleMenu()">&times;</div>
+      <ul>
+        <li><a href="#portfolio" onclick="navigateToSection(event, 'portfolio')">Portfolio</a></li>
+        <hr>
+        <li><a href="#about" onclick="navigateToSection(event, 'about')">About</a></li>
+        <hr>
+        <li><a href="#contact" onclick="navigateToSection(event, 'contact')">Contact</a></li>
+        <hr>
+      </ul>
+  </div>
+
+  <script src="index.js"></script>
+ 
+
         <!-- Social Icons -->
         <div class="social-icons">
             <section class="icons">
@@ -68,22 +86,6 @@
 
 </div>
 
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="mobile-menu">
-    <div class="mobile-menu-header">
-        <button class="close-btn" onclick="toggleMobileMenu()">×</button>
-    </div>
-    <ul class="mobile-menu-options">
-        <li><a href="#">Portfolio</a></li>
-        <hr>
-        <li><a href="#">About</a></li>
-        <hr>
-        <li><a href="#">Contact</a></li>
-        <hr>
-    </ul>
-</div>
-
-
     <section class="main-container">
 
         <div id="RecentWorks"> My Recent Works </div>
@@ -106,7 +108,9 @@
                     <button type="button" onclick="alert('Hello world!')">See projects</button>   
                 </div>
               </section>
+             
 
+              <section id="portfolio">
               <section class="cardsection">
                 <article class="card">
                   <h1>Professional Art Printing Data</h1>
@@ -187,6 +191,8 @@
                     <button type="button">See project</button>
                   </article>
               </section>
+              </section>
+              <section id="about">
               <section class="AboutMe">
                 <h1>About Me</h1>
                 <p>Hello! I'm a Software Developer. I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -195,7 +201,7 @@
                 
               </section>
               <hr class="new1">
-
+</section>
               <section class="skill-set">
                 <ul class="category">
                   <li class="category-title">
@@ -230,6 +236,8 @@
                   </ul>
                 </ul>
               </section>
+
+              <section id="contact">
             <article class="Contact-section">
                 
                     <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
